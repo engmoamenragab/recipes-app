@@ -10,7 +10,7 @@
     <title>Recipes App</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">Recipes App API</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,12 +18,12 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item"><a class="nav-link">Onion</a></li>
-            <li class="nav-item"><a class="nav-link">Tomato</a></li>
-            <li class="nav-item"><a class="nav-link">Beetroot</a></li>
-            <li class="nav-item"><a class="nav-link">Pizza</a></li>
-            <li class="nav-item"><a class="nav-link">Cherry</a></li>
-            <li class="nav-item"><a class="nav-link">Melon</a></li>
+            <li class="nav-item"><a class="nav-link">onion</a></li>
+            <li class="nav-item"><a class="nav-link">tomato</a></li>
+            <li class="nav-item"><a class="nav-link">beetroot</a></li>
+            <li class="nav-item"><a class="nav-link">pizza</a></li>
+            <li class="nav-item"><a class="nav-link">cherry</a></li>
+            <li class="nav-item"><a class="nav-link">melon</a></li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" />
@@ -33,25 +33,7 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="recipe p-3">
-            <div class="card">
-              <div class="card-header">Recipe ID</div>
-              <img src="" class="card-img-top" alt="recipe" />
-              <div class="card-body text-center">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer text-muted">
-                <footer class="blockquote-footer">
-                  Recipe Puplisher <cite title="Source Title"><a href="#" class="btn btn-primary">Source Title</a></cite>
-                </footer>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="dataRow" class="row"></div>
     </div>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
