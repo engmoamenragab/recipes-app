@@ -10,6 +10,84 @@
     <title>Recipes App</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Recipes App API</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item"><a class="nav-link">Onion</a></li>
+            <li class="nav-item"><a class="nav-link">Tomato</a></li>
+            <li class="nav-item"><a class="nav-link">Beetroot</a></li>
+            <li class="nav-item"><a class="nav-link">Pizza</a></li>
+            <li class="nav-item"><a class="nav-link">Cherry</a></li>
+            <li class="nav-item"><a class="nav-link">Melon</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="recipe p-3">
+            <div class="card">
+              <div class="card-header">Recipe ID</div>
+              <img src="" class="card-img-top" alt="recipe" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer text-muted">
+                <footer class="blockquote-footer">
+                  Recipe Puplisher <cite title="Source Title"><a href="#" class="btn btn-primary">Source Title</a></cite>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="recipe p-3">
+              <div class="card">
+                <div class="card-header">Recipe ID</div>
+                <img src="" class="card-img-top" alt="recipe" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer text-muted">
+                  <footer class="blockquote-footer">
+                    Recipe Puplisher <cite title="Source Title"><a href="#" class="btn btn-primary">Source Title</a></cite>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
