@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/food.png" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -25,18 +25,12 @@
             <li class="nav-item"><a class="nav-link">cherry</a></li>
             <li class="nav-item"><a class="nav-link">melon</a></li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
     <div class="container">
       <div id="dataRow" class="row"></div>
     </div>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -47,29 +41,14 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            <div class="recipe p-3">
-              <div class="card">
-                <div class="card-header">Recipe ID</div>
-                <img src="" class="card-img-top" alt="recipe" />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer text-muted">
-                  <footer class="blockquote-footer">
-                    Recipe Puplisher <cite title="Source Title"><a href="#" class="btn btn-primary">Source Title</a></cite>
-                  </footer>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div id="singleRecipeRow" class="modal-body"></div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
+    <div class="text-center p-5">Favicon made by <a href="" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
